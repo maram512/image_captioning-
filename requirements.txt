@@ -1,12 +1,33 @@
+# Streamlit
 streamlit==1.38.0
-torch==2.9.1 --index-url https://download.pytorch.org/whl/cpu
-torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cpu
+
+# PyTorch
+torch==2.9.1
+torchvision==0.24.1
+
+# Transformers and tokenizers (compatible versions)
 transformers==4.40.2
-tokenizers==0.20.0
+tokenizers==0.19.2
+
+# Image processing
 Pillow>=10.0.0
 numpy<2.0.0
+
+# NLP support
 sentencepiece
 protobuf<5
+
+# Optional dependencies often needed by Streamlit
+altair<6,>=4.0
+pandas<3,>=1.3.0
+pyarrow>=7.0
+requests<3,>=2.27
+rich<14,>=10.14.0
+markdown-it-py>=2.2.0
+mdurl~=0.1
+pygments<3.0.0,>=2.13.0
+
+
 
 
 
