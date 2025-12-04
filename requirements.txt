@@ -1,8 +1,9 @@
 streamlit==1.26.0
-torch==2.1.1
-torchvision==0.16.1
-transformers==4.38.0
-huggingface_hub==0.20.3
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.40.0
 Pillow==9.5.0
-matplotlib==3.8.0
+numpy
+
+
 
