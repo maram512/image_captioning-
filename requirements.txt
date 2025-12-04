@@ -5,9 +5,8 @@ streamlit==1.38.0
 torch==2.9.1
 torchvision==0.24.1
 
-# Transformers and tokenizers (compatible versions)
+# Transformers (compatible tokenizers version will be installed automatically)
 transformers==4.40.2
-tokenizers==0.19.2
 
 # Image processing
 Pillow>=10.0.0
@@ -26,6 +25,8 @@ rich<14,>=10.14.0
 markdown-it-py>=2.2.0
 mdurl~=0.1
 pygments<3.0.0,>=2.13.0
+
+
 
 
 
