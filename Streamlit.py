@@ -156,9 +156,10 @@ if uploaded:
         words = [inv_vocab[idx] for idx in output_ids[0] if idx in inv_vocab]
 
         # remove special tokens
-        words = [w for w in words if w not in ["<start>", "<end>", "<SOS>", "<EOS>"]]
+        words = [w for w in words if w not in ["<start>", "<end>", "<SOS>", "<EOS>", "<unk>"]]
 
         caption = " ".join(words)
 
     st.subheader("Caption:")
     st.write(caption)
+
